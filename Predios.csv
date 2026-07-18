@@ -1,0 +1,51 @@
+ID_Predio,Municipio,Codigo_Dane_Municipio,Fecha_Reporte,Extension_Hectareas,Tipo_Titulo_Vigente,Superposicion_Derechos,Reporte_Invasion_Activo
+CA-001,Caloto,19142,2025-01-12,150,Privado (Agroindustria),1,1
+CA-002,Caloto,19142,2025-02-24,45,Privado,0,0
+CA-003,Caloto,19142,2025-03-03,210,Privado (Agroindustria),1,1
+CA-004,Caloto,19142,2025-04-15,12,Consejo Comunitario,0,0
+CA-005,Caloto,19142,2025-05-22,80,Privado,1,0
+CA-006,Caloto,19142,2025-06-05,50,Resguardo Indígena,1,1
+CA-007,Caloto,19142,2025-07-11,18,Privado,0,0
+CA-008,Caloto,19142,2025-08-19,300,Privado (Agroindustria),1,1
+CO-001,Corinto,19212,2025-01-10,320,Privado (Agroindustria),1,1
+CO-002,Corinto,19212,2025-02-15,60,Resguardo Indígena,0,0
+CO-003,Corinto,19212,2025-03-20,18,Privado,0,0
+CO-004,Corinto,19212,2025-04-25,105,Privado,1,1
+CO-005,Corinto,19212,2025-05-10,22,Consejo Comunitario,0,0
+CO-006,Corinto,19212,2025-06-05,400,Privado (Agroindustria),1,1
+CO-007,Corinto,19212,2025-07-15,75,Privado,1,0
+GU-001,Guachené,19300,2025-03-08,110,Privado (Agroindustria),1,1
+GU-002,Guachené,19300,2025-04-19,25,Privado,0,0
+GU-003,Guachené,19300,2025-06-02,55,Consejo Comunitario,0,0
+GU-004,Guachené,19300,2025-07-15,180,Privado (Agroindustria),1,1
+GU-005,Guachené,19300,2025-08-27,12,Privado,0,0
+GU-006,Guachené,19300,2025-10-04,95,Privado,1,1
+GU-007,Guachené,19300,2025-11-18,30,Privado,0,0
+MI-001,Miranda,19455,2025-02-11,210,Privado (Agroindustria),1,1
+MI-002,Miranda,19455,2025-03-22,35,Privado,0,0
+MI-003,Miranda,19455,2025-04-04,88,Resguardo Indígena,0,0
+MI-004,Miranda,19455,2025-05-19,150,Privado (Agroindustria),1,1
+MI-005,Miranda,19455,2025-06-28,14,Privado,0,0
+MI-006,Miranda,19455,2025-08-12,90,Privado,1,0
+MI-007,Miranda,19455,2025-09-30,275,Privado (Agroindustria),1,1
+PA-001,Padilla,19513,2025-01-05,80,Privado,1,0
+PA-002,Padilla,19513,2025-02-17,15,Consejo Comunitario,0,0
+PA-003,Padilla,19513,2025-04-01,120,Privado (Agroindustria),1,1
+PA-004,Padilla,19513,2025-05-14,25,Privado,0,0
+PA-005,Padilla,19513,2025-06-23,45,Privado,0,1
+PA-006,Padilla,19513,2025-08-09,60,Consejo Comunitario,0,0
+PA-007,Padilla,19513,2025-10-11,200,Privado (Agroindustria),1,1
+PT-001,Puerto Tejada,19573,2025-01-13,40,Privado,0,1
+PT-002,Puerto Tejada,19573,2025-02-26,18,Consejo Comunitario,0,0
+PT-003,Puerto Tejada,19573,2025-04-09,150,Privado (Agroindustria),1,1
+PT-004,Puerto Tejada,19573,2025-05-21,65,Privado,1,0
+PT-005,Puerto Tejada,19573,2025-07-05,22,Privado,0,0
+PT-006,Puerto Tejada,19573,2025-08-17,210,Privado (Agroindustria),1,1
+PT-007,Puerto Tejada,19573,2025-09-29,33,Consejo Comunitario,0,0
+SQ-001,Santander de Quilichao,19698,2025-02-14,175,Privado (Agroindustria),1,1
+SQ-002,Santander de Quilichao,19698,2025-03-25,90,Resguardo Indígena,0,0
+SQ-003,Santander de Quilichao,19698,2025-05-08,45,Privado,0,0
+SQ-004,Santander de Quilichao,19698,2025-06-19,220,Privado (Agroindustria),1,1
+SQ-005,Santander de Quilichao,19698,2025-07-30,55,Privado,1,1
+SQ-006,Santander de Quilichao,19698,2025-09-11,15,Privado,0,0
+SQ-007,Santander de Quilichao,19698,2025-10-24,130,Resguardo Indígena,1,0

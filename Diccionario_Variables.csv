@@ -1,0 +1,28 @@
+Hoja,Variable,Descripción,Tipo,Origen
+Predios,ID_Predio,Identificador único del predio,Texto,Fuente original
+Predios,Municipio,Municipio donde se ubica el predio,Texto,Fuente original
+Predios,Codigo_Dane_Municipio,Código DIVIPOLA-DANE del municipio (5 dígitos),Numérico,Añadido — verificado contra tabla DIVIPOLA oficial DANE
+Predios,Fecha_Reporte,Fecha del reporte del predio,Fecha (AAAA-MM-DD),"Fuente original, reformateada de DD/MM/AAAA"
+Predios,Extension_Hectareas,Extensión del predio en hectáreas,Numérico,Fuente original
+Predios,Tipo_Titulo_Vigente,"Tipo de título vigente: Privado, Privado (Agroindustria), Consejo Comunitario, Resguardo Indígena",Categórico,Fuente original
+Predios,Superposicion_Derechos,"1 = existe superposición de derechos sobre el predio, 0 = no",Binario,Fuente original
+Predios,Reporte_Invasion_Activo,"1 = reporte de invasión activo, 0 = no",Binario,Fuente original
+Resguardos_Cauca,OBJECTID / ID / CODIGO_DANE / GlobalID,Identificadores internos del registro ANT/DANE del resguardo,Texto/Numérico,Fuente original
+Resguardos_Cauca,NOMBRE,Nombre oficial del resguardo indígena,Texto,Fuente original
+Resguardos_Cauca,PUEBLO,Pueblo indígena asociado al resguardo,Texto,Fuente original
+Resguardos_Cauca,MUNICIPIO,Código DANE del municipio según el archivo original,Numérico,Fuente original
+Resguardos_Cauca,Municipio_Nombre,"Nombre del municipio, decodificado a partir de MUNICIPIO usando tabla DIVIPOLA",Texto,Añadido
+Resguardos_Cauca,En_Area_Estudio,"1 = el municipio pertenece a los 7 municipios de estudio de Norte del Cauca, 0 = no",Binario,Añadido
+Resguardos_Cauca,ULTIMO_TIPO_ACTO_ADMIN / ULTIMO_NUMERO_ACTO_ADMIN / ULTIMA_FECHA_ACTO_ADMIN,"Tipo, número y fecha del acto administrativo más reciente que constituyó o modificó el resguardo",Texto/Fecha,Fuente original
+Resguardos_Cauca,AREA_TOTAL_ACTOS_ADMIN,"Área total registrada en los actos administrativos. ADVERTENCIA: el formato numérico es inconsistente en la fuente (algunos valores usan el punto como separador de miles, en m², otros como separador decimal). Se conserva el valor original sin convertir — requiere depuración antes de usarse cuantitativamente",Texto (sin depurar),Fuente original
+Resguardos_Cauca,ULTIMO_NUMERO_PLANO,Número del plano ACCTI/IGAC asociado,Texto,Fuente original
+Base_Unificada_Municipio,Municipio / Codigo_Dane_Municipio,Unidad de análisis: cada fila es uno de los 7 municipios de Norte del Cauca,Texto/Numérico,Añadido
+Base_Unificada_Municipio,Predios_Total_Reportados,Número de predios reportados en el municipio,Numérico,Calculado desde Predios
+Base_Unificada_Municipio,Predios_Area_Total_Ha / Predios_Area_Promedio_Ha,Área total y promedio (ha) de los predios reportados,Numérico,Calculado desde Predios
+Base_Unificada_Municipio,Predios_[Categoria]_N / _Pct,"Conteo y porcentaje de predios por tipo de título vigente (PrivadoAgroindustria, PrivadoOtro, ConsejoComunitario, ResguardoIndigena)",Numérico,Calculado desde Predios
+Base_Unificada_Municipio,Predios_SuperposicionDerechos_N / _Pct,Conteo y porcentaje de predios con superposición de derechos,Numérico,Calculado desde Predios
+Base_Unificada_Municipio,Predios_ReporteInvasionActivo_N / _Pct,Conteo y porcentaje de predios con reporte de invasión activo,Numérico,Calculado desde Predios
+Base_Unificada_Municipio,Resguardos_Registrados_N,Número de resguardos indígenas cuyo código MUNICIPIO corresponde a este municipio,Numérico,Calculado desde Resguardos_Cauca
+Base_Unificada_Municipio,Resguardos_PueblosPresentes,Pueblos indígenas con resguardo(s) registrado(s) en el municipio,Texto,Calculado desde Resguardos_Cauca
+Base_Unificada_Municipio,Resguardos_ActosRecientes_2020_2025_N,Resguardos con acto administrativo más reciente fechado entre 2020 y 2025,Numérico,Calculado desde Resguardos_Cauca
+Base_Unificada_Municipio,Resguardos_UltimoActoAdmin_Fecha,Fecha del acto administrativo más reciente entre los resguardos del municipio,Fecha,Calculado desde Resguardos_Cauca
